@@ -1,0 +1,246 @@
+body {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    width:441px !important;
+	height:37px !important;
+	border-radius: 28px 0px 0px 28px;
+	background:#a10338;
+	font-size:14px;
+	border: none;
+	padding-left: 20px;
+	color: white;
+}
+
+button {
+    background-color:  #000;
+    color: white;
+    border: none;
+    border-radius: 0px 28px 28px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width:150px !important;
+	height:39px !important;
+    cursor: pointer;
+}
+
+
+#content {
+    position: absolute;
+    background:#0a0e16;
+    width: 100%;
+    height: 40%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    
+}
+
+
+
+p {
+    color: rgb(255, 255, 255);
+    
+}
+
+button:hover {
+    background-color: #ffffff;
+    color:#a10338;
+}
+
+span {
+    color: #a10338;
+    font-size: 16px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 60%;
+    }
+}
+
+.frame1 {
+    width: 100%;
+    height: 58%;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.frame2 {
+    display: none;
+}
+/*subscribr field Tablet*/
+
+
+@media  only screen and (max-width: 928px) {
+
+
+body {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    scale: 100%;
+}
+
+    .frame1 {
+        width: 100%;
+        height: 58%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    .frame2 {
+        display: none;
+    }
+
+    span {
+        color: #a10338;
+        font-size: 16px;
+        position: absolute;
+        text-align: center;
+
+}
+
+    input[type="email"] {
+    width:300px !important;
+	height:37px !important;
+	border-radius: 28px 0px 0px 28px;
+	background:#a10338;
+	font-size:14px;
+	border: none;
+	padding-left: 20px;
+	color: white;
+}
+
+}
+
+/*End subscribr field Tablet*/
+
+/*subscribr field Mobile*/
+
+
+@media  only screen and (max-width: 505px) {
+
+    body {
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        scale: 100%;
+    }
+
+    #content {
+        position: absolute;
+        background:#0a0e16;
+        width: 100%;
+        height: 20%;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+ 
+    p {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    button {
+        border: none;
+        border-radius: 0px 28px 28px 0px;
+        padding: 10px 20px;
+        font-size: 11px;
+        width:100px !important;
+        height:30px !important;
+        left:791px !important;
+        top:487px !important;
+    }
+
+    input[type="email"] {
+        width:180px !important;
+        height:30px !important;
+        left:500px !important;
+        top:487px !important;
+        border-radius: 28px 0px 0px 28px;
+        background:#a10338;
+        font-size:11px;
+        border: none;
+        padding-left: 20px;
+        color: white;
+    }
+
+    span {
+        color: #a10338;
+        font-size: 12px;
+        margin-top: 80px; 
+    }
+
+    .frame2 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .frame1 {
+        display: none;
+
+}
+}
+
+/*End subscribr field Mobile*/
